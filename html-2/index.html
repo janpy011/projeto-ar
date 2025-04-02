@@ -14,7 +14,7 @@
   <nav class="navbar">
     <div class="logo">Minha Logo</div>
     <ul class="menu">
-      <li><a href="#home">Início</a></li>
+      <li><a href="#home" class="home">Início</a></li>
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#servicos">Serviços</a></li>
       <li><a href="#contato">Contato</a></li>
@@ -33,14 +33,17 @@
     <div class="h2">Nome da sua empresa
       <p>Nossa prioridade é seu conforto e satisfação.</p>
     </div>
+
     <div class="img-mesclada"></div>
+
   </header>
   <!--FIM-HEADER-->
 
   <!--SOBRE-->
   <div class="sobre" id="sobre">
     <h2 class="sobre-h2">Quem nos somos?</h2>
-    <p>Uma empresa especializada em instalação e manutenção de sistemas de ar condicionado, focada em desempenho e qualidade de serviço. Fundada no ano de 2025, com proposito de ser umas das melhores da aréa.</p>
+    <p>Uma empresa especializada em instalação e manutenção de sistemas de ar condicionado, focada em desempenho e
+      qualidade de serviço. Fundada no ano de 2025, com proposito de ser umas das melhores da aréa.</p>
 
     <!--botoes-class-sobre-->
     <div class="container">
@@ -96,7 +99,8 @@
       <article>
         <ul>
           <li class="li">Manutenção</li>
-          <li class="lista">Manutenção regular para evitar problemas e garantir o funcionamento eficiente do sistema</li>
+          <li class="lista">Manutenção regular para evitar problemas e garantir o funcionamento eficiente do sistema
+          </li>
         </ul>
       </article>
 
@@ -109,7 +113,30 @@
     </section>
 
   </div>
-<!--SERVIÇOS-->
+  <!--SERVIÇOS-->
+
+  <!--CONTATO-->
+  <div class="contatos">
+
+    <div class="container-wpp" id="contato">
+      <h2>Faça seu orçamento pelo WhatsApp</h2>
+      <input type="text" id="name-wpp" placeholder="Seu Nome" required>
+      <input type="tel" id="phone-wpp" placeholder="Seu Telefone (com DDD)" required>
+      <textarea id="message-wpp" placeholder="Sua mensagem" required></textarea>
+      <button onclick="sendToWhatsAppWpp()">Enviar</button>
+    </div>
+
+  </div>
+  <!--CONTATO-FIM-->
+
+  <footer class="footer">
+
+    <p>📍 Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
+    <p>📧 E-mail: contato@seusite.com</p>
+    <p>🕒 Horário de Funcionamento: Seg-Sex: 08h - 18h | Sáb: 08h - 12h</p>
+    <p class="copy">© 2024 Nome da Empresa. Todos os direitos reservados.</p>
+
+  </footer>
 
   <script src="../javascript-2/script.js"></script>
 </body>

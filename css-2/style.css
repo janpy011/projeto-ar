@@ -67,11 +67,17 @@ body {
   color: white;
   text-decoration: none;
   font-size: 18px;
+  padding: 10px;
+}
+
+.home{
+  background-color: #e55e00;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .menu a:hover {
   background-color: orangered;
-  padding: 10px;
   border-radius: 5px;
   transition: .5s;
 }
@@ -159,7 +165,7 @@ input:checked+.slider:before {
 /*HEADER*/
 .header-ar {
   display: flex;
-  height: 90dvh;
+  height: 95dvh;
   width: 100%;
   gap: 10em;
   box-shadow: 5px 5px 5px black;
@@ -168,14 +174,14 @@ input:checked+.slider:before {
 .h2 {
   font-size: 50px;
   margin-left: 300px;
-  margin-top: 200px;
+  margin-top: 220px;
   width: 300px;
 }
 
 .h2 p {
   font-size: 13px;
   font-weight: 700;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 15px;
   border-top: 2px solid orangered;
 }
@@ -452,7 +458,7 @@ input:checked+.slider:before {
 
 
 /*SERVIÇOS*/
-.servicos{
+.servicos {
   height: 90dvh;
   width: 100%;
   background-color: #e7e7e7;
@@ -462,7 +468,7 @@ input:checked+.slider:before {
   gap: 4em;
 }
 
-.h2-servicos h2{
+.h2-servicos h2 {
   margin-top: 80px;
   font-size: 60px;
   padding: 10px;
@@ -470,7 +476,7 @@ input:checked+.slider:before {
   border-bottom: 2px solid orangered;
 }
 
-.section-servicos{
+.section-servicos {
   display: flex;
   gap: 2em;
   height: 500px;
@@ -478,20 +484,20 @@ input:checked+.slider:before {
   justify-content: center;
 }
 
-.section-servicos article{
+.section-servicos article {
   background-color: rgba(0, 0, 0, .8);
   border-radius: 5px;
   height: 165px;
   width: 300px;
 }
 
-.section-servicos article:hover{
- box-shadow: 0px 0px 30px orangered;
- transform: translateY(-15px);
- transition: 1s;
+.section-servicos article:hover {
+  box-shadow: 0px 0px 30px orangered;
+  transform: translateY(-15px);
+  transition: 1s;
 }
 
-.section-servicos .li{
+.section-servicos .li {
   padding: 20px;
   list-style: none;
   color: orangered;
@@ -500,10 +506,75 @@ input:checked+.slider:before {
   font-weight: 700;
 }
 
-.section-servicos .lista{
+.section-servicos .lista {
   color: white;
   text-align: center;
   padding: 20px;
   font-weight: 500;
   list-style: none;
+}
+/*SERVIÇOS-FIM*/
+
+/*CONTATO*/
+.contatos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: transparent;
+}
+
+.container-wpp {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.contatos h2 {
+  color: #128C7E;
+}
+
+.contatos input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contatos button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contatos button:hover {
+  background-color: #1ebe5d;
+}
+/*CONTATO-FIM*/
+
+/*FOOTER*/
+.footer {
+  background: orangered;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p {
+  padding: 10px;
+}
+
+.copy{
+  background-color: rgba(0, 0, 0, .7);
+  margin-bottom: 1em;
 }
