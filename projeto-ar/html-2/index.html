@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ar condicionado</title>
+  <link rel="stylesheet" href="../css-2/style.css">
+  <link rel="icon" href="../img-2/logo-ico.png" type="image/x-icon">
+</head>
+<body>
+  <!--MENU/TROCA-TEMA-->
+  <nav class="navbar">
+    <div class="logo">Minha Logo</div>
+    <ul class="menu">
+      <li><a href="#home" class="home">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="switch">
+      <label class="toggle-switch">
+        <input type="checkbox" id="tema">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </nav>
+  <!--MENU/TROCA-TEMA-FIM-->
+
+  <!--HEADER-->
+  <header class="header-ar" id="home">
+    <div class="h2">Nome da sua empresa
+      <p>Nossa prioridade é seu conforto e satisfação.</p>
+    </div>
+
+    <div class="img-mesclada">
+      <img src="../img-2/mesclagem.jpg" alt="imagem mesclada" class="img-header">
+    </div>
+
+  </header>
+  <!--FIM-HEADER-->
+
+  <!--SOBRE-->
+  <div class="sobre" id="sobre">
+    <h2 class="sobre-h2">Quem nos somos?</h2>
+    <p>Uma empresa especializada em instalação e manutenção de sistemas de ar condicionado, focada em desempenho e
+      qualidade de serviço. Fundada no ano de 2025, com proposito de ser umas das melhores da aréa.</p>
+
+    <!--botoes-class-sobre-->
+    <div class="container">
+      <div class="radio-wrapper">
+        <input type="radio" id="value-1" name="btn" class="input">
+        <div class="btn">
+          <span aria-hidden=""></span>Qualidade
+          <span aria-hidden="" class="btn__glitch">Qualidade</span>
+          <label class="number"></label>
+        </div>
+      </div>
+      <div class="radio-wrapper">
+        <input type="radio" checked="true" id="value-2" name="btn" class="input">
+        <div class="btn">
+          Segurança<span aria-hidden=""></span>
+          <span aria-hidden="" class="btn__glitch">Segurança</span>
+          <label class="number"></label>
+        </div>
+      </div>
+      <div class="radio-wrapper">
+        <input type="radio" id="value-3" name="btn" class="input">
+        <div class="btn">
+          Conforto<span aria-hidden=""></span>
+          <span aria-hidden="" class="btn__glitch">Conforto</span>
+          <label class="number"></label>
+        </div>
+      </div>
+    </div>
+    <!--fim-botoes-sobre-->
+  </div>
+  <!--SOBRE-FIM-->
+
+  <!--IMAGEM-->
+  <div class="imagem-2"></div>
+  <!--IMAGEM-FIM-->
+
+
+  <!--SERVIÇOS-->
+  <div class="servicos">
+
+    <div class="h2-servicos" id="servicos">
+      <h2>Nossa empresa oferece serviços de:</h2>
+    </div>
+
+    <section class="section-servicos">
+      <article>
+        <ul>
+          <li class="li">Instalação</li>
+          <li class="lista">instalaçao de sistemas de ar-condicionado em residencias escritorios e outros espaços</li>
+        </ul>
+      </article>
+
+      <article>
+        <ul>
+          <li class="li">Manutenção</li>
+          <li class="lista">Manutenção regular para evitar problemas e garantir o funcionamento eficiente do sistema
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <ul>
+          <li class="li">Reparo</li>
+          <li class="lista">reparo ou substituição de compresores danificados,evaporadores e condensadores</li>
+        </ul>
+      </article>
+    </section>
+
+  </div>
+  <!--SERVIÇOS-->
+
+  <!--CONTATO-->
+  <div class="contatos">
+
+    <div class="container-wpp" id="contato">
+      <h2>Faça seu orçamento pelo WhatsApp</h2>
+      <input type="text" id="name-wpp" placeholder="Seu Nome" required>
+      <input type="tel" id="phone-wpp" placeholder="Seu Telefone (com DDD)" required>
+      <textarea id="message-wpp" placeholder="Sua mensagem" required></textarea>
+      <button onclick="sendToWhatsAppWpp()">Enviar</button>
+    </div>
+
+  </div>
+  <!--CONTATO-FIM-->
+
+  <footer class="footer">
+
+    <p>📍 Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
+    <p>📧 E-mail: contato@seusite.com</p>
+    <p>🕒 Horário de Funcionamento: Seg-Sex: 08h - 18h | Sáb: 08h - 12h</p>
+    <p class="copy">© 2024 Nome da Empresa. Todos os direitos reservados.</p>
+
+  </footer>
+
+  <script src="../javascript-2/script.js"></script>
+</body>
+
+</html>
